@@ -1,17 +1,28 @@
 {
   "name": "murisite",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "two.js": "^0.8.3",
+    "unplugin-vue-components": "^0.17.21",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
+    "@vicons/fluent": "^0.12.0",
     "@vitejs/plugin-vue": "^2.2.0",
-    "vite": "^2.8.0"
+    "naive-ui": "^2.26.1",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-resources-loader": "^1.4.1",
+    "vfonts": "^0.0.3",
+    "vite": "^2.8.0",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
   }
 }
