@@ -32,7 +32,7 @@ onMounted(() => {
 
 <style lang="scss">
 .landing-show {
-  background: linear-gradient(69deg, #ff4949 0%, #3567ff 100%);
+  background: linear-gradient(69deg, #29d7dc 0%, #041034 100%);
 
   .show {
     color: #fff;
