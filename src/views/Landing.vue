@@ -75,7 +75,7 @@ onMounted(() => {
           <hr>
           <p>Powered by MuriData</p>
           <n-button type="info" ghost>
-            <unicon name="angle-right"></unicon> Read More
+            <unicon name="angle-right"></unicon> Comming Soon...
           </n-button>
         </div>
       </div>
