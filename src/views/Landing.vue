@@ -74,6 +74,9 @@ onMounted(() => {
             Decentralized Data Indexing</div>
           <hr>
           <p>Powered by MuriData</p>
+          <n-button type="info" ghost>
+            <unicon name="angle-right"></unicon> Read More
+          </n-button>
         </div>
       </div>
     </div>
@@ -131,6 +134,9 @@ onMounted(() => {
       flex-direction: row;
       justify-content: flex-end;
       .title {
+        button {
+          color: #fff;
+        }
         @media (min-width: 738px) {
           backdrop-filter: blur(5px);
         }
