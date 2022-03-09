@@ -49,8 +49,8 @@
   }
 
   .title {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .header-link {
