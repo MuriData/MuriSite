@@ -1,0 +1,81 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: none;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landingColeft {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.landingCoRight {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 36rem;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.muri {
+  margin-top: 10px;
+  background-image: url(/static/image/muri-full-main.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  width: calc(100vh / 10 * 6);
+}
+
+@media screen and (max-width: 655px) {
+  .muri {
+    margin-top: -10px;
+    height: 110vh;
+    width: calc(90vh / 10 * 6);
+  }
+
+  .landingCoRight {
+    margin-top: -65vh;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  .landingCoRight {
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 8px rgb(0 0 0 / 18%);
+    text-shadow: 0 0 8px rgb(0 0 0 / 18%);
+    border-radius: 15px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  .muri {
+    width: 26vw;
+    max-height: calc(26vw * 1.6);
+  }
+}
